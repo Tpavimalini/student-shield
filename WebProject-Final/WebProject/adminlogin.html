@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#">
+          <img src="CIT_logo.png" class="logo" alt="Logo" />
+          STUDENT SHIELD
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+      </nav>
+    </header>
+    <main>
+        <center>
+      <section class="banner">
+        <div class="container">
+            <h1>STUDENT SHIELD 🛡️</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+            <div class="form-box">
+                <form method="post" action="adminvalidate.php" class="form">
+                  <div class="form-group">
+                    <label for="Admin_id">Admin_id:</label>
+                    <input
+                      type="text"
+                      id="Admin_id"
+                      name="Admin_id"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password :</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-login">Login</button>
+                </form>
+                <br><br>
+            </div>
+                </div>
+            </center>
+      </section>
+    </main>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
